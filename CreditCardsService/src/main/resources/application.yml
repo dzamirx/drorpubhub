@@ -1,0 +1,9 @@
+spring:
+  data:    mongodb:      database: CreditCardsdb
+      host: localhost
+      port: 27017
+       
+server:
+  port: 8084
+  application:    name: CREDITCARDS-SERVICE
+
