@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -34,11 +35,17 @@
 		    <artifactId>springfox-swagger-ui</artifactId>
 		    <version>3.0.0</version>
 		</dependency>
-
 		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-spring-webflux</artifactId>
 		    <version>3.0.0</version>
+		</dependency>
+	
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-devtools</artifactId>
+		    <version>2.6.2</version>
 		</dependency>
 
 		<dependency>
@@ -53,6 +60,11 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<!-- AOP -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-aspects</artifactId> 
+		</dependency>
 
 		<dependency>
 			<groupId>de.flapdoodle.embed</groupId>

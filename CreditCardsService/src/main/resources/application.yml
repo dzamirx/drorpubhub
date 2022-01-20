@@ -7,3 +7,11 @@ server:
   port: 8084
   application:    name: CREDITCARDS-SERVICE
 
+logging:  level:    org.springframework.web: ERROR
+    com.reactive.CreditCardsService.Service: DEBUG
+    
+  pattern:
+    level: '%d{yyy-MM-dd-HH:mm:ss} - %msg%n'
+    file: '%d{yyy-MM-dd-HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  
+  file:    name: C:\Users\dzamir\Desktop\backup\logfile.log

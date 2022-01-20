@@ -2,6 +2,7 @@ package com.reactive.CreditCardsService.Entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Component;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -24,4 +25,5 @@ public class Customer
 	private String Address;
 	private int age;
 
+	
 }

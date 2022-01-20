@@ -24,7 +24,6 @@ public class CustomerController
 	@Autowired
 	private DaoService service;
 	
-	
 		/** Read Mappings **/
 
 	@GetMapping("/customers")

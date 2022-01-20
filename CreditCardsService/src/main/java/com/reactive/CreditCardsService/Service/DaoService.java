@@ -2,6 +2,7 @@ package com.reactive.CreditCardsService.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Range;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import com.reactive.CreditCardsService.Entity.Customer;
@@ -10,11 +11,13 @@ import com.reactive.CreditCardsService.Repository.CustomerRepo;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+@Component
 @Service
 public class DaoService 
 {
 	@Autowired
 	private CustomerRepo repo1;
+	
 	
 	/** Define all CURD  referencing to the REACTIVE-MONGODB repositories layer **/
 	
