@@ -28,8 +28,8 @@
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
-		
-		<!-- SWAGGER /io.springfox/springfox-swagger-ui -->
+	
+		<!-- Swagger UI -->
 		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-swagger-ui</artifactId>
@@ -38,6 +38,11 @@
 		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-spring-webflux</artifactId>
+		    <version>3.0.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.springfox</groupId>
+		    <artifactId>springfox-swagger2</artifactId>
 		    <version>3.0.0</version>
 		</dependency>
 	
@@ -107,6 +112,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-credit</finalName>
 	</build>
 
 </project>
