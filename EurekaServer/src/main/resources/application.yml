@@ -1,0 +1,16 @@
+server:
+  port: 8761
+spring:
+  profiles: default
+  application:
+    name: eureka-server.com
+eureka:
+  
+  instance:
+    hostname: eureka-server.com
+    appname: eureka-cluster
+
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+ 
