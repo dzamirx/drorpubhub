@@ -19,7 +19,7 @@ public class DaoService
 	private CustomerRepo repo1;
 	
 	
-	/** Define all CURD  referencing to the REACTIVE-MONGODB repositories layer **/
+	/** Define all CRUD  referencing to the REACTIVE-MONGODB repositories layer **/
 	
 	/** Create **/
 	public Mono<Customer> addCustomer(Mono<Customer> cs) //creates a new customer
